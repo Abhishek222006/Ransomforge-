@@ -1,0 +1,64 @@
+ # OS / editor noise
+
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+
+# Python
+
+**pycache**/
+*.py[cod]
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+
+# FastAPI / backend local artifacts
+
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.ruff_cache/
+backend/.coverage
+backend/htmlcov/
+backend/.env
+backend/.env.*
+
+# Frontend build artifacts
+
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Research / notebook artifacts
+
+**/.ipynb_checkpoints/
+**/*.ipynb
+6_experiments/**/*.png
+6_experiments/**/*.pdf
+6_experiments/**/*.svg
+6_experiments/**/*.html
+6_experiments/**/*.tex
+
+# Keep lightweight project assets
+
+!datasets/
+!datasets/**
+
+!outputs/
+!outputs/**
+
+!scripts/
+!scripts/**
+
+!backend/
+!frontend/
+
+!README.md
+
+.env
+*.db
+*.db-wal
+*.db-shm
