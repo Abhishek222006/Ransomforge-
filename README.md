@@ -200,7 +200,7 @@ Do not deploy monitoring or security components on systems without appropriate a
 
 **Abhishek222006**
 
-Built for Hacknovate. 🚀
+Built for IQoo hackathon 🚀
 
 ## 📄 License
 
